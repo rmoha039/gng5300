@@ -34,7 +34,6 @@ def do_operation(x, y, op):
 result = do_operation(a, b, op)
 if result is not None:
     print("Result = %d" % result)
-
     print("Enter a third number to apply to the operation above")
     c = input("Enter number 3: ")
     c = int(c)
@@ -45,3 +44,4 @@ if result is not None:
         print("Failed; please restart")
 else:
     print("Failed; please restart")
+print("END of the program")
